@@ -1,4 +1,7 @@
 <!--index.wxml-->
+<view style="position:absolute;z-index:999;bottom:0px;"> 
+  <image src="./footer.png" style="height:15vw;width:100vw;" ></image>
+</view>
 <view class="container"> 
   <view class="header">
     <navbar page-name="你当前页面的名字"></navbar>
