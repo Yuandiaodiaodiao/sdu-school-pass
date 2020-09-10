@@ -1,0 +1,38 @@
+<view class="container">
+	<view class="header">
+		<navbar page-name="你当前页面的名字"></navbar>
+	</view>
+	<view class="main flex-start">
+		<image class="bg" src="./wuyichang.png" mode='widthFix'></image>
+
+		<view class="green1">
+			<view class="green-image">
+				<image class="bg" src="./sdugreen.png" mode='widthFix'></image>
+			</view>
+			<view class="green-text" style="flex:1">
+				<text style="font-size:20px">{{userNameShow}}</text>
+				<text>{{cardIdShow}}</text>
+				<text>计算机科学与技术学院</text>
+				<text>{{idcard}}</text>
+			</view>
+			<view style="flex:0;display:flex;justify-content:flex-end">
+				<image wx:if="{{eyeStatus==='close'}}" bindtap="changeeyes" src="eyeclose.png" style="width:50rpx;margin-right:60rpx;margin-top:40rpx;" mode="widthFix"></image>
+				<image wx:if="{{eyeStatus==='open'}}" bindtap="changeeyes" src="eyeopen.png" style="width:50rpx;margin-right:60rpx;margin-top:40rpx;" mode="widthFix"></image>
+			</view>
+		</view>
+
+		<image class="bg" src="./greenbottom1.png" mode='widthFix'></image>
+		<view class='green-bottom'>
+			<view class="green-bottom-container">
+				<text>青岛校区-正门</text>
+				<text>{{time}}</text>
+			</view>
+		</view>
+
+
+	</view>
+	<view class='flex-end row footer' bindtap='returnMain'>
+		<image class="bg" src="./greenbottombutton1.png" mode='widthFix'></image>
+		<image class="bg" src="./greenbottombutton2.png" mode='widthFix'></image>
+	</view>
+</view>

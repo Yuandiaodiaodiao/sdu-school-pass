@@ -1,0 +1,27 @@
+<view class='container'>
+  <view class="header">
+    <navbar page-name="你当前页面的名字"></navbar>
+  </view>
+  <view class='main mainview'>
+    <view style="display:flex;justify-content:center;width:100%;margin-top:20px;">
+      <image style="width:20vw;" src="./sdu.png" mode="widthFix"></image>
+      
+    </view>
+    <view class="centerbox">
+      <view class="cardbox">
+        <view class="flex-input">
+          <image class="buttonimage" src="./inputicon1.png" mode="widthFix"></image>
+          <input bindinput="inputID" class="weui-input"  placeholder="请输入统一认证用户名(学工号)"/>
+        </view>
+        <view class="divLine"></view>
+        <view class="flex-input">
+          <image class="buttonimage" src="./inputicon2.png" mode="widthFix"></image>
+          <input bindinput="inputName" class="weui-input" maxlength="10" placeholder="请输入统一认证密码"/>
+        </view>
+        <view class="divLine"></view>
+        <view bindtap="returnMain" class="loginbutton">登录</view>
+      </view>
+        
+      </view>
+  </view>
+</view>

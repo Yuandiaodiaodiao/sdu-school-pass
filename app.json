@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/login/index",
+    "pages/index/index",
+    "pages/goout/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "山大校园通",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

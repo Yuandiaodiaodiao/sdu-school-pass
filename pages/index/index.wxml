@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container"> 
+  <view class="header">
+    <navbar page-name="你当前页面的名字"></navbar>
+  </view>
+
+  <view class="main">
+    <view class="mainbg">
+      <view style="padding-top:55rpx;padding-left:35rpx;">
+        <text class="timetext">{{time}}</text>
+      </view>
+    </view>
+    <!-- <image src='../image/imgtop.png' class='bg' mode='widthFix'></image> -->
+    <view class="buttons">
+      <image wx:if="{{false}}" src='../image/imgButton1.png' class='bg2' style="margin-left:20px"></image>
+      <image bindtap='positionQR' src='../image/imgButton2.png' class='bg2' style="padding-top:1.5px;margin-left:10px">
+      </image>
+    </view>
+    <view wx:if="{{showSuccess}}" style="width:100%;margin-top:50px">
+      <image src='../image/opsuccess.png' mode='widthFix' style="margin-left:28.5vw;width:43vw"></image>
+    </view>
+  </view>
+
+  <view class='footer'>
+    <image bindtap="directgo" src='../image/imgbottom.png' class='bg' mode='widthFix'></image>
+  </view>
+
+</view>

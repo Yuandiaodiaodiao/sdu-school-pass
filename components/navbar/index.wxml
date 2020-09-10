@@ -1,0 +1,11 @@
+<view class="navbar" style='height:{{navHeight+1}}px;background-color:{{bgColor}}'>
+  <view style='margin-top:{{navTop+1}}px;' class="navview">
+    <view class='nav-icon'>
+      <image bindtap="gologin" src="../../pages/image/navhome.png"
+        style='height:{{leftnavHeight}}px;max-height:100rpx;max-width:100rpx;'  mode="heightFix"></image>
+    </view>
+    <view style="display:flex;align-items:center;margin-left:10rpx;" >
+      <view class='navbar-title' style="">山大校园通</view>
+    </view>
+  </view>
+</view>

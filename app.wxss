@@ -1,0 +1,21 @@
+/**app.wxss**/
+.header{
+  width: 100%;
+  flex: 0 0 auto;
+}
+.main{
+  width:100%;
+  flex:1 1 auto;
+}
+.footer{
+  width: 100%;
+  flex:0 0 auto;
+}
+.flex-end{
+  display:flex;
+  align-items: flex-end;
+}
+.row{
+  flex-direction: row;
+}
+page{height:100%}
