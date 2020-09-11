@@ -22,7 +22,7 @@ Page({
   returnMain: function() {
     console.log("click")
     if(app.globalData.userName.length<2 
-      || app.globalData.userName>=3 
+      || app.globalData.userName.length>3 
       || app.globalData.cardId.length!==12
       ){
         return 
